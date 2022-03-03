@@ -6,7 +6,7 @@ const Log =()=>{
     const {name } = useParams()
     const history = useHistory()
     return (
-        <Container maxWidth={false} sx={{
+        <Container maxHeight={false} maxWidth={false} sx={{
            display: "flex",
            flexDirection: "column",
            justifyContent: "center",

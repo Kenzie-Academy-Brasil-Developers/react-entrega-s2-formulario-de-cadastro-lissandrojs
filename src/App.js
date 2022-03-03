@@ -4,7 +4,7 @@ import './App.css';
 import Form from './Components/Form';
 import Login from './Components/Login/';
 import CssBaseline from '@mui/material/CssBaseline';
-
+import GlobalStyles from './styles/global.js'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       
     
       <>
+      <GlobalStyles/>
       <CssBaseline />
        <Switch>
          
